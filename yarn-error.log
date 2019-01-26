@@ -1,0 +1,44 @@
+Arguments: 
+  D:\노드js\node.exe D:\yarn\bin\yarn.js add grapql-yoga
+
+PATH: 
+  C:\Program Files (x86)\NAT Service;D:\anaconda\cuda\bin;D:\anaconda\cuda\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\c\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;D:\깃\Git\cmd;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\GtkSharp\2.12\bin;D:\중도 이북\QTSystem\;C:\WINDOWS\System32\OpenSSH\;D:\cli\CloudFoundry;C:\Program Files\Cloud Foundry;D:\노드js\;D:\4-1웹프로그래밍\Microsoft VS Code\bin;C:\Program Files\Java\jdk-10.0.2\bin;D:\yarn\bin\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Kings\KOS;C:\Kings\KOS\x64;C:\Users\c\scoop\shims;C:\Ruby24-x64\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\c\AppData\Local\Microsoft\WindowsApps;D:\4-1웹프로그래밍\Microsoft VS Code\bin;C:\Users\c\AppData\Roaming\npm;D:\비주얼 코드\Microsoft VS Code\bin;C:\Program Files\Java\jdk-10.0.2\bin;C:\Users\c\AppData\Local\Yarn\bin;C:\Program Files\MongoDB\Server\4.0\bin;
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  8.11.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/grapql-yoga: Not found
+      at Request.params.callback [as _callback] (D:\yarn\lib\cli.js:60182:18)
+      at Request.self.callback (D:\yarn\lib\cli.js:120166:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (D:\yarn\lib\cli.js:121138:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (D:\yarn\lib\cli.js:121060:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "grapql",
+    "version": "1.0.0",
+    "description": "graglhi",
+    "main": "index.js",
+    "repository": "https://github.com/parkchanjong/graphqlhi.git",
+    "author": "parkchanjong <7000cj@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
